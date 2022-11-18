@@ -17,15 +17,16 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var textField2: UITextField!
     
-    @IBOutlet weak var multiplyButton: UIButton!
-    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
     }
 
     @IBAction func mulitplyWhenPressed(_ sender: UIButton) {
-//        MVP - Riley
+        var answer = (textField1.text! as NSString).integerValue * (textField2.text! as NSString).integerValue
+        answerLabel.text = "\(answer)"
+        
+ 
         
 //        Stretch Two and Three - Makayla
         

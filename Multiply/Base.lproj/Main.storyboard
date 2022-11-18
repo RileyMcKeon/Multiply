@@ -61,7 +61,6 @@
                     </view>
                     <connections>
                         <outlet property="answerLabel" destination="0dV-Xm-X6Y" id="uVo-dH-twu"/>
-                        <outlet property="multiplyButton" destination="bdX-LP-Tw0" id="0t0-L8-gI5"/>
                         <outlet property="resultImage" destination="0Hu-5Y-1Na" id="8Vj-na-Mek"/>
                         <outlet property="textField1" destination="tpX-7j-Pgt" id="DZC-C3-a3P"/>
                         <outlet property="textField2" destination="EnT-tt-2kV" id="IW0-mj-34L"/>
