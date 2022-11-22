@@ -24,7 +24,10 @@ class ViewController: UIViewController, UITextFieldDelegate {
     }
 
     @IBAction func mulitplyWhenPressed(_ sender: UIButton) {
-//        MVP - Riley
+        var answer = (textField1.text! as NSString).integerValue * (textField2.text! as NSString).integerValue
+        answerLabel.text = "\(answer)"
+        
+ 
         
 //        Stretch Two and Three - Makayla
         
