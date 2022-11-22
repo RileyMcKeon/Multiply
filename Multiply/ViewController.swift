@@ -7,17 +7,16 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class ViewController: UIViewController, UITextFieldDelegate {
 
     @IBOutlet weak var resultImage: UIImageView!
     
     @IBOutlet weak var answerLabel: UILabel!
-    
+
     @IBOutlet weak var textField1: UITextField!
     
     @IBOutlet weak var textField2: UITextField!
     
-    @IBOutlet weak var multiplyButton: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -31,11 +30,14 @@ class ViewController: UIViewController {
         
         
 //        Stretch One - Steven
-        
+      
+      self.view.endEditing(true)
+        }
         
 //        Stretch Four - Steven
 
     }
     
-}
+
+
 
