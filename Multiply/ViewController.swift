@@ -38,7 +38,14 @@ class ViewController: UIViewController, UITextFieldDelegate {
         }
         
 //        Stretch Four - Steven
-
+    
+    @IBAction func buttonThatClears(_ sender: Any) {
+        textField1.text = " "
+        textField2.text = " "
+        answerLabel.text = "Answer"
+        resultImage.image = UIImage(named:"whitebackground")
+    }
+    
     }
     
 
