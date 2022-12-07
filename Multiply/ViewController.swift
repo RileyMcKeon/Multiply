@@ -23,21 +23,23 @@ class ViewController: UIViewController, UITextFieldDelegate {
         // Do any additional setup after loading the view.
     }
 
+
+    
     @IBAction func mulitplyWhenPressed(_ sender: UIButton) {
         var answer = (textField1.text! as NSString).integerValue * (textField2.text! as NSString).integerValue
         answerLabel.text = "\(answer)"
         
- 
         
-//        Stretch Two and Three - Makayla
+        if answer == 64 {
+            resultImage.image = UIImage(named: "Toad")
+        } else {
+            resultImage.image = UIImage(named:"whitebackground")
+        }
         
-        
-//        Stretch One - Steven
       
       self.view.endEditing(true)
         }
         
-//        Stretch Four - Steven
     
     @IBAction func buttonThatClears(_ sender: Any) {
         textField1.text = " "
